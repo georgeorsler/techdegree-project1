@@ -60,7 +60,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('http://placeimg.com/640/480/tech') no-repeat top center ;
+  background-image: url(/Users/georgeorsler/Downloads/techdegree-project1/techdegree-project1/images/background-image.jpg) ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
