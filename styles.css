@@ -103,6 +103,7 @@ header .profile-image:hover {
   border-bottom: 4px solid rgb(88, 56, 56);
   border-radius: 25px;
   transition: all .5s;
+  animation: alternate-reverse;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -212,4 +213,5 @@ a.social:hover {
   }
 
 }
+
 
