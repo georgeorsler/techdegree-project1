@@ -70,11 +70,11 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  border: 3px solid rgb(61, 29, 112);
-  transition: all 0.5s;
+  border: 10px solid rgb(61, 29, 112);
+  transition: all 0.85s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(10deg);
@@ -103,8 +103,8 @@ header .profile-image:hover {
   border-bottom: 4px solid rgb(88, 56, 56);
   border-radius: 25px;
   transition: all .5s;
-  animation: alternate-reverse;
-}
+  animation: alternate-reverse
+  }
 .card:hover {
   border-color: #ff99ff;
 }
@@ -117,14 +117,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #b69a70;
   color: rgb(240, 240, 240);
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #6b99b8;
+  background: #048beb;
 }
 
 footer {
@@ -214,4 +214,12 @@ a.social:hover {
 
 }
 
+.second-photo{
+  border: red dashed 2.5px;
+  transition: 0.5s;
+  border-radius: 50%;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
 
