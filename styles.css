@@ -30,7 +30,6 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: left;
-  text-size-adjust: 50;
 }
 .nav {
   display: flex;
@@ -46,7 +45,7 @@ a:hover {
     margin-right: auto;
     color: rgb(209, 190, 190);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35;
+    font-size: 35px;
 }
 .nav li {
   padding: 10px 20px 20px 20px;
